@@ -36,6 +36,8 @@ class Developer:
 
 me = Developer()
 print(me.motto())
+```
+
 ## `tech_stack` — Technologies I'm Exploring
 
 <div align="center">
