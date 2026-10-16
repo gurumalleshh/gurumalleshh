@@ -82,7 +82,7 @@ print(me.motto())
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=gurumalleshh&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="GitHub contribution activity graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=gurumalleshh&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" width="100%" alt="GitHub contribution activity graph"/>
 
 </div>
 
