@@ -1,8 +1,8 @@
-name: Generate Snake Animation
+name: Generate Neon Contribution Snake
 
 'on':
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "17 0 * * *"
   workflow_dispatch:
 
 permissions:
@@ -11,17 +11,19 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
-      - name: Generate Snake
+      - name: Generate custom neon snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake.svg?palette=github-dark
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake-neon.svg?palette=github-dark&color_snake=%2322d3ee&color_dots=%230d1117%23161b22%230e7490%2306b6d4%23a855f7
 
-      - name: Publish Snake
+      - name: Publish animation
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
