@@ -1,8 +1,8 @@
-name: Generate Neon Contribution Snake
+name: Generate Daily Contribution Snake
 
 'on':
   schedule:
-    # Rebuild every day at 00:17 UTC so recent contributions appear.
+    # Daily refresh at 00:17 UTC (05:47 IST)
     - cron: "17 0 * * *"
   workflow_dispatch:
   push:
@@ -15,10 +15,10 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
-      - name: Generate custom neon snake
+      - name: Generate contribution grid animations
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -27,10 +27,20 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/github-contribution-grid-snake-neon.svg?color_snake=%2322d3ee&color_dots=%23161b22%2C%230e7490%2C%2306b6d4%2C%2322d3ee%2C%23a855f7
 
-      - name: Publish animation
+      - name: Validate generated SVGs
+        run: |
+          set -e
+          test -s dist/github-contribution-grid-snake-neon.svg
+          grep -q 'class="c c' dist/github-contribution-grid-snake-neon.svg
+          grep -q '#22d3ee' dist/github-contribution-grid-snake-neon.svg
+          echo "Generated neon SVG with contribution cells and configured colors."
+          head -c 500 dist/github-contribution-grid-snake-neon.svg
+
+      - name: Publish animations to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
+          keep_history: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
