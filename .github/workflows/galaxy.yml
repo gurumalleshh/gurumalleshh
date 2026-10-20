@@ -1,0 +1,35 @@
+name: Generate Contribution Galaxy
+
+'on':
+  schedule:
+    - cron: "25 0 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/galaxy.yml"
+      - ".github/scripts/generate-galaxy.js"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Generate galaxy from daily contribution data
+        run: node .github/scripts/generate-galaxy.js
+        env:
+          GITHUB_USER: ${{ github.repository_owner }}
+
+      - name: Publish galaxy SVG
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
