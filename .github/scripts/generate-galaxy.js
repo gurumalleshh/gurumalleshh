@@ -3,21 +3,46 @@ const path = require("node:path");
 
 const username = process.env.GITHUB_USER || "gurumalleshh";
 const output = path.join("dist", "contribution-galaxy.svg");
-const endpoint = `https://github-contributions-api.jogruber.de/v4/${encodeURIComponent(username)}?y=last`;
+
 
 function esc(value) {
   return String(value).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 }
 
 async function main() {
-  const response = await fetch(endpoint, { headers: { "User-Agent": "contribution-galaxy-generator" } });
-  if (!response.ok) throw new Error(`Contribution API returned HTTP ${response.status}`);
+  const token = process.env.GITHUB_TOKEN;
+  if (!token) throw new Error("GITHUB_TOKEN is required to read the native GitHub contribution calendar.");
+  const query = `query($login: String!) {
+    user(login: $login) {
+      contributionsCollection {
+        contributionCalendar {
+          totalContributions
+          weeks {
+            contributionDays { date contributionCount }
+          }
+        }
+      }
+    }
+  }`;
+  const response = await fetch("https://api.github.com/graphql", {
+    method: "POST",
+    headers: {
+      "Authorization": `Bearer ${token}`,
+      "Content-Type": "application/json",
+      "User-Agent": "contribution-galaxy-generator"
+    },
+    body: JSON.stringify({ query, variables: { login: username } })
+  });
+  if (!response.ok) throw new Error(`GitHub GraphQL returned HTTP ${response.status}`);
   const payload = await response.json();
-  if (!Array.isArray(payload.contributions) || payload.contributions.length < 300) {
-    throw new Error("Contribution API returned incomplete daily data.");
-  }
-
-  const days = payload.contributions.slice(-365);
+  if (payload.errors?.length) throw new Error(payload.errors.map(e => e.message).join("; "));
+  const calendar = payload.data?.user?.contributionsCollection?.contributionCalendar;
+  if (!calendar?.weeks?.length) throw new Error("GitHub returned no contribution calendar.");
+  const days = calendar.weeks.flatMap(week => week.contributionDays).slice(-365).map(day => ({
+    date: day.date,
+    count: day.contributionCount
+  }));
+  if (days.length < 300) throw new Error("GitHub returned incomplete contribution calendar data.");
   const width = 1000, height = 250, cx = width / 2, cy = height / 2;
   const max = Math.max(1, ...days.map((d) => Number(d.count) || 0));
   const stars = [];
@@ -49,7 +74,7 @@ async function main() {
     return next ? `<line x1="${p.x.toFixed(2)}" y1="${p.y.toFixed(2)}" x2="${next.x.toFixed(2)}" y2="${next.y.toFixed(2)}" stroke="#334155" stroke-width="0.7" opacity="0.28"/>` : "";
   }).join("");
 
-  const total = days.reduce((sum, d) => sum + (Number(d.count) || 0), 0);
+  const total = calendar.totalContributions;
   const active = days.filter((d) => Number(d.count) > 0).length;
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" role="img" aria-label="Contribution Galaxy for ${esc(username)}">
   <defs>
@@ -70,6 +95,6 @@ async function main() {
 </svg>`;
   fs.mkdirSync(path.dirname(output), { recursive: true });
   fs.writeFileSync(output, svg);
-  console.log(`Created ${output}: ${days.length} days, ${total} contributions, ${active} active days.`);
+  console.log(`Created ${output} from GitHub native calendar: ${days.length} days, ${total} contributions, ${active} active days.`);
 }
 main().catch((error) => { console.error(error); process.exit(1); });
