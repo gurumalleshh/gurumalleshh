@@ -72,7 +72,7 @@ print(me.motto())
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/gurumalleshh/gurumalleshh/output/github-contribution-grid-snake-neon.svg" width="100%" alt="GitHub contribution snake animation"/>
+<img src="https://ghchart.rshah.org/39d353/gurumalleshh" width="100%" alt="GitHub contribution calendar for gurumalleshh"/>
 
 </div>
 
