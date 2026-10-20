@@ -20,10 +20,11 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Generate galaxy from daily contribution data
+      - name: Generate galaxy from GitHub's native contribution calendar
         run: node .github/scripts/generate-galaxy.js
         env:
           GITHUB_USER: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish galaxy SVG
         uses: crazy-max/ghaction-github-pages@v4
