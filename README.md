@@ -43,15 +43,15 @@ print(me.motto())
 
 ### Languages
 
-<img src="https://skillicons.dev/icons?i=c,python&theme=dark" alt="C and Python"/>
+<img src="https://skillicons.dev/icons?i=c&theme=dark" alt="C"/>
 
 ### Web Development
 
-<img src="https://skillicons.dev/icons?i=html,css,nodejs,vite&theme=dark" alt="Web development technologies"/>
+<img src="https://skillicons.dev/icons?i=html,css&theme=dark" alt="HTML and CSS"/>
 
 ### Tools & Platforms
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark" alt="Development tools"/>
+<img src="https://skillicons.dev/icons?i=vscode&theme=dark" alt="Visual Studio Code"/>
 
 </div>
 
