@@ -68,11 +68,13 @@ print(me.motto())
 
 ---
 
-## `contributions` — Consistency Over Perfection
+## `contributions` — Contribution Galaxy
 
 <div align="center">
 
-<img src="https://ghchart.rshah.org/39d353/gurumalleshh" width="100%" alt="GitHub contribution calendar for gurumalleshh"/>
+<img src="https://raw.githubusercontent.com/gurumalleshh/gurumalleshh/output/contribution-galaxy.svg" width="100%" alt="Contribution Galaxy showing daily GitHub activity"/>
+
+<sub>Every star represents a day. Brighter stars mean more contributions.</sub>
 
 </div>
 
