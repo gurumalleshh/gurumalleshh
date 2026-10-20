@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:09090b,50:312e81,100:0891b2&text=GURU%20MALLESH&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Building%20Ideas%20Into%20Reality&descAlignY=60&descSize=16&animation=fadeIn" width="100%" alt="Futuristic profile banner"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:09090b,50:312e81,100:0891b2&text=GURU%20MALLESH&fontSize=48&fontColor=ffffff&fontAlignY=38&animation=fadeIn" width="100%" alt="Futuristic profile banner"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=900&color=22D3EE&center=true&vCenter=true&width=800&lines=CS+Engineering+Student" width="100%" alt="CS Engineering Student"/>
 
