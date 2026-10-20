@@ -7,8 +7,6 @@
 <br/>
 
 <img src="https://img.shields.io/badge/GitHub-gurumalleshh-18181b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile"/>
-<img src="https://img.shields.io/badge/Focus-Software%20Development-0891b2?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Software development"/>
-<img src="https://img.shields.io/badge/Mindset-Always%20Learning-7c3aed?style=for-the-badge&logo=bookstack&logoColor=white" alt="Always learning"/>
 
 </div>
 
