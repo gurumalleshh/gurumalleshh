@@ -33,15 +33,6 @@ I'm a Computer Science Engineering student learning by building projects, explor
 
 </div>
 
-<div align="center">
-
-<img src="https://img.shields.io/badge/C-5B6EE1?style=flat-square&logo=c&logoColor=white" alt="C"/>
-<img src="https://img.shields.io/badge/HTML-E65C2F?style=flat-square&logo=html5&logoColor=white" alt="HTML"/>
-<img src="https://img.shields.io/badge/CSS-2678C8?style=flat-square&logo=css3&logoColor=white" alt="CSS"/>
-<img src="https://img.shields.io/badge/VS_Code-087EA4?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
-
-</div>
-
 </td>
 </tr>
 </table>
