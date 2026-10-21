@@ -44,20 +44,6 @@ Currently exploring the foundations of **programming and web development**, one 
 
 ---
 
-<div align="center">
-
-## THE SIGNAL
-
-*Small commits. New ideas. Progress you can actually see.*
-
-<img src="https://raw.githubusercontent.com/gurumalleshh/gurumalleshh/output/contribution-galaxy.svg" width="100%" alt="Contribution Galaxy — coding activity"/>
-
-<sub>My contribution history, turned into a little universe.</sub>
-
-</div>
-
----
-
 ## ✦ BUILT, TESTED, LEARNED
 
 <table>
