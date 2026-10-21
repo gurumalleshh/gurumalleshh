@@ -1,40 +1,44 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=150&color=0:080d18,55:111827,100:164e63&text=GURU%20MALLESH&fontSize=46&fontColor=e5faff&fontAlignY=45" width="100%" alt="Guru Mallesh — profile header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:4338ca,45:0f766e,100:0891b2&text=GURU%20MALLESH&fontSize=44&fontColor=ffffff&fontAlignY=40&desc=CS%20ENGINEERING%20STUDENT&descSize=14&descAlignY=62" width="100%" alt="Guru Mallesh profile banner"/>
 
-<sub>FIELD NOTES / 001 &nbsp; • &nbsp; COMPUTER SCIENCE ENGINEERING STUDENT</sub>
+<br/>
 
-<br/><br/>
-
-<a href="https://github.com/gurumalleshh">GITHUB</a> &nbsp; / &nbsp;
-<a href="https://www.linkedin.com/in/guru-mallesh-17b51738a">LINKEDIN</a> &nbsp; / &nbsp;
-<a href="mailto:gurumalleshh@gmail.com">EMAIL</a>
+<a href="https://github.com/gurumalleshh"><img src="https://img.shields.io/badge/GitHub-Explore-24292f?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/guru-mallesh-17b51738a"><img src="https://img.shields.io/badge/LinkedIn-Connect-0969da?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:gurumalleshh@gmail.com"><img src="https://img.shields.io/badge/Email-Say_Hello-c2410c?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
 </div>
 
----
+<br/>
 
 <table>
 <tr>
-<td width="56%" valign="top">
+<td width="60%" valign="top">
 
-### 01 — DESIGN INTENT
+## 👋 Hey, I'm Guru
 
-**Understand the system.  
-Build the useful thing.**
+**Curious mind. Practical builder. Work in progress.**
 
-I'm a Computer Science Engineering student learning through practical projects, experiments, and the occasional bug that teaches me more than the plan did.
+I'm a Computer Science Engineering student learning by building projects, exploring ideas, and figuring out how technology can solve everyday problems.
 
 </td>
-<td width="44%" valign="top">
+<td width="40%" valign="top">
 
-### 02 — TOOL DRAWER
+## 🧰 My Toolkit
 
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=c,html,css,vscode&theme=dark" alt="C, HTML, CSS and VS Code"/>
 
-**C** · **HTML** · **CSS** · **VS Code**
+</div>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/C-5B6EE1?style=flat-square&logo=c&logoColor=white" alt="C"/>
+<img src="https://img.shields.io/badge/HTML-E65C2F?style=flat-square&logo=html5&logoColor=white" alt="HTML"/>
+<img src="https://img.shields.io/badge/CSS-2678C8?style=flat-square&logo=css3&logoColor=white" alt="CSS"/>
+<img src="https://img.shields.io/badge/VS_Code-087EA4?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
 
 </div>
 
@@ -44,61 +48,62 @@ I'm a Computer Science Engineering student learning through practical projects, 
 
 ---
 
-### 03 — CONSOLE LOG
-
-```text
-GURU@WORKSTATION:~$ whoami
-CS Engineering Student
-
-GURU@WORKSTATION:~$ ls toolkit/
-C  HTML  CSS  VS_CODE
-
-GURU@WORKSTATION:~$ echo "next step"
-BUILD → TEST → LEARN → REPEAT
-```
-
----
-
-### 04 — PROJECT DRAWINGS
+## 🚀 Projects I've Been Building
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### A / CAMPUS PICK
+<h3>🔎 Campus Pick</h3>
 
-A campus lost-and-found platform concept.
+A campus lost-and-found platform concept for helping people reconnect with misplaced belongings.
 
-[OPEN PROJECT ↗](https://github.com/gurumalleshh/CAMPUS-PICK)
+<img src="https://img.shields.io/badge/PROJECT-01-6D5EF7?style=flat-square" alt="Project 01"/>
+
+<br/><br/>
+
+<a href="https://github.com/gurumalleshh/CAMPUS-PICK">Explore project →</a>
 
 </td>
 <td width="50%" valign="top">
 
-#### B / HEALTH MONITOR
+<h3>💙 Health Monitor</h3>
 
-An IoT patient health monitoring project.
+An IoT patient health monitoring project focused on sensor data and health readings.
 
-[OPEN PROJECT ↗](https://github.com/gurumalleshh/health-monitor)
+<img src="https://img.shields.io/badge/PROJECT-02-0891B2?style=flat-square" alt="Project 02"/>
+
+<br/><br/>
+
+<a href="https://github.com/gurumalleshh/health-monitor">Explore project →</a>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### C / PRODUCTIVITYOS
+<h3>⚡ ProductivityOS</h3>
 
-A productivity app for organizing daily work.
+A productivity app concept for organizing tasks and managing everyday work.
 
-[OPEN PROJECT ↗](https://github.com/gurumalleshh/ProductivityOS)
+<img src="https://img.shields.io/badge/PROJECT-03-0F9D78?style=flat-square" alt="Project 03"/>
+
+<br/><br/>
+
+<a href="https://github.com/gurumalleshh/ProductivityOS">Explore project →</a>
 
 </td>
 <td width="50%" valign="top">
 
-#### D / OPEN DRAWINGS
+<h3>🧪 More Experiments</h3>
 
-Browse the rest of my experiments and repositories.
+New ideas, experiments, and projects are part of the journey.
 
-[VIEW ALL REPOSITORIES ↗](https://github.com/gurumalleshh?tab=repositories)
+<img src="https://img.shields.io/badge/IN_PROGRESS-F28C28?style=flat-square" alt="In progress"/>
+
+<br/><br/>
+
+<a href="https://github.com/gurumalleshh?tab=repositories">Browse all repositories →</a>
 
 </td>
 </tr>
@@ -108,6 +113,15 @@ Browse the rest of my experiments and repositories.
 
 <div align="center">
 
-<sub>G.M. / PERSONAL ENGINEERING LOG &nbsp; • &nbsp; ALWAYS A WORK IN PROGRESS</sub>
+### 💡 My Build Loop
+
+<img src="https://img.shields.io/badge/01-Learn-5B6EE1?style=for-the-badge" alt="Learn"/>
+<img src="https://img.shields.io/badge/02-Build-0F9D78?style=for-the-badge" alt="Build"/>
+<img src="https://img.shields.io/badge/03-Test-EA580C?style=for-the-badge" alt="Test"/>
+<img src="https://img.shields.io/badge/04-Improve-0891B2?style=for-the-badge" alt="Improve"/>
+
+<br/><br/>
+
+<sub>Made with curiosity • Updated as I learn</sub>
 
 </div>
