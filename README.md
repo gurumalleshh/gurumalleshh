@@ -1,40 +1,40 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:070b1a,35:312e81,70:0f766e,100:06b6d4&text=GURU%20MALLESH&fontSize=48&fontColor=ffffff&fontAlignY=42&desc=CS%20ENGINEERING%20STUDENT&descSize=14&descAlignY=62&animation=twinkling" width="100%" alt="Guru Mallesh — CS Engineering Student"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=150&color=0:080d18,55:111827,100:164e63&text=GURU%20MALLESH&fontSize=46&fontColor=e5faff&fontAlignY=45" width="100%" alt="Guru Mallesh — profile header"/>
 
-<br/>
+<sub>FIELD NOTES / 001 &nbsp; • &nbsp; COMPUTER SCIENCE ENGINEERING STUDENT</sub>
 
-<a href="https://github.com/gurumalleshh"><img src="https://img.shields.io/badge/EXPLORE-GITHUB-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-&nbsp;
-<a href="https://www.linkedin.com/in/guru-mallesh-17b51738a"><img src="https://img.shields.io/badge/LET'S_CONNECT-LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-&nbsp;
-<a href="mailto:gurumalleshh@gmail.com"><img src="https://img.shields.io/badge/SAY_HELLO-EMAIL-0F766E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<br/><br/>
+
+<a href="https://github.com/gurumalleshh">GITHUB</a> &nbsp; / &nbsp;
+<a href="https://www.linkedin.com/in/guru-mallesh-17b51738a">LINKEDIN</a> &nbsp; / &nbsp;
+<a href="mailto:gurumalleshh@gmail.com">EMAIL</a>
 
 </div>
 
-<br/>
+---
 
 <table>
 <tr>
-<td width="58%" valign="top">
+<td width="56%" valign="top">
 
-### ✳ A LITTLE ABOUT ME
+### 01 — DESIGN INTENT
 
-Not here to collect buzzwords.  
-Here to learn how things work — then make something useful with them.
+**Understand the system.  
+Build the useful thing.**
 
-Currently exploring the foundations of **programming and web development**, one project and one problem at a time.
+I'm a Computer Science Engineering student learning through practical projects, experiments, and the occasional bug that teaches me more than the plan did.
 
 </td>
-<td width="42%" valign="top">
+<td width="44%" valign="top">
 
-### ◈ MY TOOLKIT
+### 02 — TOOL DRAWER
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=c,html,css,vscode&theme=dark" alt="C, HTML, CSS, Visual Studio Code"/>
+<img src="https://skillicons.dev/icons?i=c,html,css,vscode&theme=dark" alt="C, HTML, CSS and VS Code"/>
 
-<sub>C · HTML · CSS · VS Code</sub>
+**C** · **HTML** · **CSS** · **VS Code**
 
 </div>
 
@@ -44,57 +44,70 @@ Currently exploring the foundations of **programming and web development**, one 
 
 ---
 
-## ✦ BUILT, TESTED, LEARNED
+### 03 — CONSOLE LOG
+
+```text
+GURU@WORKSTATION:~$ whoami
+CS Engineering Student
+
+GURU@WORKSTATION:~$ ls toolkit/
+C  HTML  CSS  VS_CODE
+
+GURU@WORKSTATION:~$ echo "next step"
+BUILD → TEST → LEARN → REPEAT
+```
+
+---
+
+### 04 — PROJECT DRAWINGS
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**01 / Campus Pick**
+#### A / CAMPUS PICK
 
 A campus lost-and-found platform concept.
 
-<a href="https://github.com/gurumalleshh/CAMPUS-PICK">↗ View repository</a>
+[OPEN PROJECT ↗](https://github.com/gurumalleshh/CAMPUS-PICK)
 
 </td>
 <td width="50%" valign="top">
 
-**02 / Health Monitor**
+#### B / HEALTH MONITOR
 
 An IoT patient health monitoring project.
 
-<a href="https://github.com/gurumalleshh/health-monitor">↗ View repository</a>
+[OPEN PROJECT ↗](https://github.com/gurumalleshh/health-monitor)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**03 / ProductivityOS**
+#### C / PRODUCTIVITYOS
 
-A productivity app concept for managing daily work.
+A productivity app for organizing daily work.
 
-<a href="https://github.com/gurumalleshh/ProductivityOS">↗ View repository</a>
+[OPEN PROJECT ↗](https://github.com/gurumalleshh/ProductivityOS)
 
 </td>
 <td width="50%" valign="top">
 
-**04 / More experiments**
+#### D / OPEN DRAWINGS
 
-The next idea might be the best one.
+Browse the rest of my experiments and repositories.
 
-<a href="https://github.com/gurumalleshh?tab=repositories">↗ Explore all repositories</a>
+[VIEW ALL REPOSITORIES ↗](https://github.com/gurumalleshh?tab=repositories)
 
 </td>
 </tr>
 </table>
 
-<br/>
+---
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:312e81,50:06b6d4,100:0f766e" width="100%" alt=""/>
-
-<sub>MADE OF CURIOSITY · BUILT ONE STEP AT A TIME</sub>
+<sub>G.M. / PERSONAL ENGINEERING LOG &nbsp; • &nbsp; ALWAYS A WORK IN PROGRESS</sub>
 
 </div>
