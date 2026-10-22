@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:312e81,25:6d28d9,55:0f766e,80:0891b2,100:fb7185&text=GURU%20MALLESH&fontSize=48&fontColor=ffffff&fontAlignY=42&desc=CS%20ENGINEERING%20STUDENT&descSize=14&descAlignY=63&stroke=67e8f9&strokeWidth=1" width="100%" alt="Guru Mallesh — fluid geometric gradient banner"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=200&color=0:071a33,50:123b68,100:075985&text=GURU%20MALLESH&fontSize=46&fontColor=f0f9ff&fontAlignY=42&desc=CS%20ENGINEERING%20STUDENT%20%2F%2F%20BUILDING%20IN%20PROGRESS&descSize=13&descAlignY=65&stroke=38bdf8&strokeWidth=1" width="100%" alt="Guru Mallesh — technical blueprint banner"/>
 
 <br/>
 
