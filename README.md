@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:4338ca,45:0f766e,100:0891b2&text=GURU%20MALLESH&fontSize=44&fontColor=ffffff&fontAlignY=40&desc=CS%20ENGINEERING%20STUDENT&descSize=14&descAlignY=62" width="100%" alt="Guru Mallesh profile banner"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&height=210&color=0:111827,35:3730a3,70:0f766e,100:0891b2&text=GURU%20MALLESH&fontSize=48&fontColor=ffffff&fontAlignY=42&desc=CS%20ENGINEERING%20STUDENT&descSize=14&descAlignY=63&stroke=22d3ee&strokeWidth=1" width="100%" alt="Guru Mallesh — colorful geometric banner"/>
 
 <br/>
 
 <a href="https://github.com/gurumalleshh"><img src="https://img.shields.io/badge/GitHub-Explore-24292f?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 <a href="https://www.linkedin.com/in/guru-mallesh-17b51738a"><img src="https://img.shields.io/badge/LinkedIn-Connect-0969da?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:gurumalleshh@gmail.com"><img src="https://img.shields.io/badge/Email-Say_Hello-c2410c?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="mailto:gurumalleshh@gmail.com"><img src="https://img.shields.io/badge/Email-Say_Hello-c2410c?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 
 </div>
 
